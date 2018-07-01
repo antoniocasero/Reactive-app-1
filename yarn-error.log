@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/Cellar/node/9.11.1/bin/node /usr/local/bin/yarn init
+
+PATH: 
+  /Users/antoniocasero/.rvm/gems/ruby-2.4.1/bin:/Users/antoniocasero/.rvm/gems/ruby-2.4.1@global/bin:/Users/antoniocasero/.rvm/rubies/ruby-2.4.1/bin:/Users/antoniocasero/Library/Android/sdk/platform-tools:/Users/antoniocasero/Library/Android/sdk/tools:/Users/antoniocasero/Library/Android/sdk/tools/bin:/Users/antoniocasero/Library/Android/sdk/tools/proguard/bin:/Users/antoniocasero/Library/Android/sdk/build-tools/28.0.0-rc2:/Users/antoniocasero/Library/Android/sdk/ndk-bundle:/usr/lib/ccache:/usr/local/opt/openssl/bin:/Users/antoniocasero/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/antoniocasero/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/antoniocasero/.rvm/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  9.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:131036:13)
+      at Interface.emit (events.js:180:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:163:10)
+      at ReadStream.emit (events.js:180:13)
+      at emitKeys (internal/readline.js:422:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1019:36)
+      at ReadStream.emit (events.js:180:13)
+      at addChunk (_stream_readable.js:274:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
