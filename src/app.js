@@ -31,16 +31,40 @@ function getLocation(location) {
     }
 }
 
-// create a template two var JSX expression
+let count = 0;
 
-const template2 = (
-    <div>
-        <h1>{user.userName}</h1>
-        <p>Age: {user.userAge}</p>
-        {getLocation(user.userLocation)}
-    </div>
-);
+
+const addOne = () => {
+    count++;
+    renderCounterApp();
+};
+
+const minusOne = () => {
+    count--;
+    renderCounterApp();
+};
+
+const reset = () => {
+    count = 0;
+    renderCounterApp();
+};
+
+
 
 var appRoot = document.getElementById('app');
 
-ReactDOM.render(template2, appRoot);
+
+const renderCounterApp = () =>{
+// create a template two var JSX expression
+    const template2 = (
+        <div>
+            <h1>Count: {count}</h1>
+            <button onClick={addOne}>+1</button>
+            <button onClick={minusOne}>-1</button>
+            <button onClick={reset}>Reset</button>
+        </div>
+    );
+    ReactDOM.render(template2, appRoot);
+}
+
+renderCounterApp();

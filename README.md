@@ -13,3 +13,5 @@
     - Dynamic templates
     - ++ install editor extension Babel ES6/ES7
     - Root can only have one element> the main div to wrap everything
+
+6- React DOM elements: Good to know the html elements ported to react.
