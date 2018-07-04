@@ -15,3 +15,5 @@
     - Root can only have one element> the main div to wrap everything
 
 6- React DOM elements: Good to know the html elements ported to react.
+7-. React events SyntheticEvents: Supported events section
+8- React diferenciates between html tag and react component because is uppeercase
